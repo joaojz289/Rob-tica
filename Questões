@@ -1,0 +1,136 @@
+Questões Robotica
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int exercicio1() {
+    int inteiro = 10;
+    float flutuante = 3.14f;
+    double preciso = 2.71828;
+    char letra = 'A';
+    bool ligado = true;
+    cout << inteiro << " " << flutuante << " " << preciso << " " << letra << " " << ligado << endl;
+    return 0;
+}
+
+int exercicio2() {
+    int a, b;
+    cin >> a >> b;
+    cout << a + b << endl;
+    cout << a - b << endl;
+    cout << a * b << endl;
+    cout << a / b << endl;
+    return 0;
+}
+
+int exercicio3() {
+    const float PI = 3.14;
+    float raio;
+    cin >> raio;
+    cout << "Area: " << PI * raio * raio << endl;
+    return 0;
+}
+
+int exercicio4() {
+    int i = 5;
+    float f = 5.5;
+    double d = 5.55555;
+    cout << i / 2 << " " << f / 2 << " " << d / 2 << endl;
+    return 0;
+}
+
+int exercicio5() {
+    string nome;
+    int idade;
+    cin >> nome >> idade;
+    cout << "Olá, " << nome << ". Você tem " << idade << " anos." << endl;
+    return 0;
+}
+
+
+6)
+int soma(int a, int b) {
+    return a + b;
+}
+
+7)
+bool ehPar(int n) {
+    return n % 2 == 0;
+}
+
+8)
+void mostrarMensagem() {
+    cout << "Bem-vindo ao programa!" << endl;
+}
+
+9)
+int quadrado(int n) {
+    return n * n;
+}
+
+10)
+float maior(float a, float b) {
+    return (a > b) ? a : b;
+}
+
+int exercicio11() {
+    int x = 10;
+    int* p = &x;
+    cout << *p << " - Endereco: " << p << endl;
+    return 0;
+}
+
+12)
+void dobrar(int* p) {
+    *p *= 2;
+}
+
+13)
+void trocar(int* a, int* b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+14)
+void mostrarVetor(int* v, int tamanho) {
+    for (int i = 0; i < tamanho; i++) {
+        cout << v[i] << " ";
+    }
+    cout << endl;
+}
+
+15)
+void aprovado(float* nota) {
+    if (*nota >= 7)
+        cout << "Aprovado" << endl;
+    else
+        cout << "Reprovado" << endl;
+}
+
+// BLOCO 4 – PARÂMETROS E ARGUMENTOS
+
+16)
+void trocarRef(int &a, int &b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
+
+17)
+void alterarValores(int valor, int &ref) {
+    valor = 10;
+    ref = 20;
+}
+
+18)
+void incrementar(int* p) {
+    (*p)++;
+}
+
+19° Questão
+float media(floatA, floatB, floatC) {
+    return (a + b + c) / 3;
+}
+
