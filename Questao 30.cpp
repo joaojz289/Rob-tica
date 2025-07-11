@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
-using namespace std;
 
-void mostrar() {
-    cout << "Funcao com pragma once" << endl;
+using namespace std;
+void Mostrar() {
+    cout << "Função com pragma once" << endl;
 }
