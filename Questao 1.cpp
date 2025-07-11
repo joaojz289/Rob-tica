@@ -2,12 +2,14 @@
 #include <string>
 using namespace std;
 
+
+
 int exercicio1_392() {
-    int inteiro_485 = 10;
-    float flutuante_794 = 3.14f;
-    double preciso_559 = 2.71828;
-    char letra_338 = 'A';
+    int inteiro_485 = 2;
+    float flutuante_794 = 6.7;
+    double preciso_559 = 9.465;
+    char letra_338 = 'J';
     bool ligado_606 = true;
-    cout << inteiro_485 << " " << flutuante_794 << " " << preciso_559 << " " << letra_338 << " " << ligado_606 << endl;
+    cout << inteiro_1 << " " << flutuante_4 << " " << preciso_5 << " " << letra_8 << " " << ligado_6 << endl;
     return 0;
 }
