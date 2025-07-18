@@ -12,7 +12,7 @@ void nota (string nm_144, float n1_498){
     }
 }
 
-int main_259() {
+int main() {
     float nota1_457;
     string nome_914;
 
